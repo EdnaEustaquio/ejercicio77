@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+  header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(236, 234, 236);
+  }
+  a {
+    padding: 0px 0px 0px 0px;
+    background-color: #f1eaf1;
+    border: 1px solid #f2ecf5;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  a:hover{
+    background: #4aca4a; 
+    color: white;
+  }
+  p {
+    color: rgb(36, 43, 146);
+     display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+  }
+  header ul li{
+    margin: 10px;
+  }
+  .presentacion{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-image: url("images/centroo.jpg");
+    background-repeat:repeat;
+    border-radius: 25px 25px 25px 25px;
+  }
+
+  .contenedor{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-image: url("images/fondo1.jpg");
+    background-color:white;
+    align-items: center;
+  }
+  .recital {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 45px 25px 20px 25px;
+    gap:30px;
+  }
+  .localizacion {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  .caja_1{
+    width:100%;
+    height: 100%;
+    padding: 10px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .caja_2{
+    width:100%;
+    height: 100%;
+    padding: 10px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  
+  .caja_3{
+    width:100%;
+    height: 100%;
+    padding: 10px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .caja_ig{
+    border-radius: 50%;
+  }
+  #conocenos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #conocenos iframe{
+    padding: 10px;
+    margin: 10px;
+  }
+  .roboto-mono {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  .prompt-thin {
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  h2{
+    font-size: 100%;
+    text-align: center;
+  }
+  .imgredondita {
+    border-radius: 50%;
+    border-width: 15px;
+    border: 7px solid #f6f6fa;
+  }
+  .derecho {
+    padding: 10px;
+    display: flex ;
+    justify-content: right;
+  
+  }
+  footer{
+    background-color: rgb(230, 213, 230);
+    display: flex;
+    justify-content: left;
+    text-align: left;
+  } 
+  
+  
